@@ -12,9 +12,9 @@ class Solution {
                     diff = target - sum;
                 }
                 if (sum < target) {
-                    ++low;
+                    low++;
                 } else {
-                    --high;
+                    high--;
                 }
             }
         }
